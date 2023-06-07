@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%s\n' ./* | LC_ALL=C sort -t/ -k1,1n -k1.2,1.2 -k1.1,1.1r | sed -E 's|.*/([^/]+)$|\1/|' | tr '\n' ','
+ls -amvp
