@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -A1p | sort -d -t'.' -k1,1 -k2n | sed ':a;N;$!ba;s/\n/, /g;s#/$#/#'
